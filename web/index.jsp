@@ -20,6 +20,7 @@
     </script>
 </head>
 <body>
+<h1>JSP Example</h1>
 <%
     if (request.getParameter("submit") != null) {
         MyCalculator calculator = new MyCalculator();
